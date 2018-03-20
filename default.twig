@@ -21,10 +21,10 @@
                 {% endif %}
 
                 <div class="navbar-text">
-                    {{ title|default('The title') }}
+                    {{ sitetitle|default('Site') }}
 
                     <small class="hidden-xs hidden-sm">
-                        {{ subTitle|default('This is the default subtitle!')|raw }}
+                        {{ title|default('')|raw }}
                     </small>
                 </div>
             </a>
