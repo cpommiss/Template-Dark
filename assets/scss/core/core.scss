@@ -1,9 +1,6 @@
 body {
-    font-size: 19px;
-
-    @media (max-width: 960px) {
-        font-size: 17px;
-    }
+    background-color: $color-grey-dark;
+    font-size: 1rem;
 }
 
 main {
@@ -12,4 +9,6 @@ main {
 
 section {
     margin-bottom: 50px;
+    background-color: #fff;
+    color: $color-grey-dark;
 }

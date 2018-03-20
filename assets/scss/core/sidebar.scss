@@ -1,9 +1,39 @@
 #sidebar {
+    padding-left: 0;
+    padding-right:  0;
+    font-size: 1.5rem;
+
     @media (min-width: 768px) {
         position: fixed;
     }
 
     .text-muted {
-        color: #859AAF;
+        background-color: $color-primary;
+        padding: 0.5rem 15px;
+        margin-bottom: 0;
+        color: #fff;
+        font-size: 1.75rem;
+    }
+
+    .nav {
+        & > li {
+            & > a {
+                &:hover,
+                &:focus {
+                    padding-left: 11px;
+                    background-color: #222;
+                    border-left: 4px $color-primary solid;
+                    color: #fff;
+                }
+            }
+        }
+
+        &-stacked {
+            & > li,
+            & > li + li {
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+        }
     }
 }
