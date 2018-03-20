@@ -3,21 +3,27 @@ header.navbar {
     background-color: $color-primary;
 
     .navbar-brand {
-        font-size: 28px;
-        height: auto;
-        line-height: 50px;
-        margin-left: 20px;
-        color: #df691a;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 75px;
+
+        img {
+            height: 35px;
+            image-rendering: -webkit-optimize-contrast;
+        }
+    }
+
+    .navbar-text {
+        color: #fff;
+        font-weight: bold;
+        padding-left: 15px;
 
         small {
-            font-size: 18px;
+            display: block;
+            margin-left: 0;
             font-weight: 300;
-            margin-left: 10px;
-            color: white;
-        }
-
-        &:hover {
-            color: #df691a;
+            color: #ddd;
         }
     }
 }

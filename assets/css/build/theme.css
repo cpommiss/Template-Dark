@@ -40,21 +40,32 @@ header.navbar {
   opacity: 1;
   background-color: #5c2f91; }
   header.navbar .navbar-brand {
-    font-size: 28px;
-    height: auto;
-    line-height: 50px;
-    margin-left: 20px;
-    color: #df691a; }
-    header.navbar .navbar-brand small {
-      font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 75px; }
+    header.navbar .navbar-brand img {
+      height: 35px;
+      image-rendering: -webkit-optimize-contrast; }
+  header.navbar .navbar-text {
+    color: #fff;
+    font-weight: bold;
+    padding-left: 15px; }
+    header.navbar .navbar-text small {
+      display: block;
+      margin-left: 0;
       font-weight: 300;
-      margin-left: 10px;
-      color: white; }
-    header.navbar .navbar-brand:hover {
-      color: #df691a; }
+      color: #ddd; }
 
 img {
   max-width: 100%; }
+
+ul {
+  padding-left: 20px;
+  list-style-type: square; }
+  ul ul {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem; }
 
 li {
   margin-bottom: 3px; }
@@ -89,6 +100,3 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 15px;
   color: #5c2f91;
   font-weight: bold; }
-
-h3 {
-  font-size: 23px; }
