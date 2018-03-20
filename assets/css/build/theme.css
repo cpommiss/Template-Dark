@@ -38,7 +38,7 @@ main {
 
 header.navbar {
   opacity: 1;
-  background-color: #5c2f91; }
+  background-color: rgba(92, 47, 145, 0.9); }
   header.navbar .navbar-brand {
     display: flex;
     flex-direction: row;
