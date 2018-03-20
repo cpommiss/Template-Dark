@@ -6,11 +6,11 @@ body {
 
 main {
     margin-top: 90px;
-}
 
-section {
-    min-height: 100vh;
-    margin-bottom: 50px;
-    background-color: #fff;
-    color: $color-grey-dark;
+    section:first-child {
+        min-height: 100vh !important;
+        margin-bottom: 50px;
+        background-color: #fff;
+        color: $color-grey-dark;
+    }
 }
