@@ -1,0 +1,22 @@
+header.navbar {
+    opacity: 0.9;
+
+    .navbar-brand {
+        font-size: 28px;
+        height: auto;
+        line-height: 50px;
+        margin-left: 20px;
+        color: #df691a;
+
+        small {
+            font-size: 18px;
+            font-weight: 300;
+            margin-left: 10px;
+            color: white;
+        }
+
+        &:hover {
+            color: #df691a;
+        }
+    }
+}
