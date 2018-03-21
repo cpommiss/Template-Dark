@@ -40,9 +40,11 @@ main {
 footer {
   display: block;
   clear: both;
-  border-top: 1px #5c2f91 solid;
+  overflow: hidden;
   margin-top: 6rem;
-  padding-top: 2rem; }
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-top: 1px #5c2f91 solid; }
   footer > a {
     display: block;
     float: left;
