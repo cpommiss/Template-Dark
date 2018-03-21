@@ -145,11 +145,11 @@ li {
     background-color: #222;
     border-left: 4px #5c2f91 solid;
     color: #fff; }
-  #sidebar .nav > li > a.active {
+  #sidebar .nav > li.active > a {
     padding-left: 9px;
     background-color: #222;
     border-left: 6px #5c2f91 solid; }
-    #sidebar .nav > li > a.active:hover, #sidebar .nav > li > a.active:focus {
+    #sidebar .nav > li.active > a:hover, #sidebar .nav > li.active > a:focus {
       padding-left: 9px;
       background-color: #222;
       border-left: 6px #5c2f91 solid; }
