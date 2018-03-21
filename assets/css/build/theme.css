@@ -1,7 +1,7 @@
 pre {
   padding: 0;
-  border-color: #3D5166;
-  background-color: #1D2B3A;
+  border: 2px #743bb8 solid;
+  background-color: #44236a;
   border-radius: 4px;
   margin: 15px; }
   @media (max-width: 960px) {
@@ -9,7 +9,7 @@ pre {
       font-size: 12px; } }
   pre code {
     border: none;
-    background-color: #1D2B3A; }
+    background-color: #44236a; }
 
 code {
   display: inline-block;

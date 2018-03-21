@@ -1,7 +1,7 @@
 pre {
     padding: 0;
-    border-color: #3D5166;
-    background-color: #1D2B3A;
+    border: 2px lighten($color-primary, 10%) solid;
+    background-color: darken($color-primary, 10%);
     border-radius: 4px;
     margin: 15px;
 
@@ -11,7 +11,7 @@ pre {
 
     code {
         border: none;
-        background-color: #1D2B3A;
+        background-color: darken($color-primary, 10%);
     }
 }
 
