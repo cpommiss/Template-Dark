@@ -41,8 +41,8 @@ footer {
   display: block;
   clear: both;
   border-top: 1px #5c2f91 solid;
-  margin-top: 1rem;
-  padding-top: 1rem; }
+  margin-top: 2rem;
+  padding-top: 2rem; }
   footer > a {
     display: block;
     float: left;
@@ -188,6 +188,13 @@ li {
     margin-bottom: 0; }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 15px;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px #5c2f91 solid;
   color: #5c2f91;
-  font-weight: bold; }
+  font-weight: 500; }
+
+h1, h2 {
+  padding-bottom: 0;
+  font-weight: 800; }
