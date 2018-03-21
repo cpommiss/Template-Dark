@@ -1,3 +1,37 @@
 img {
     max-width: 100%;
 }
+
+figure img {
+}
+
+figure {
+    display: inline-block;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: $color-grey-dark;
+    border: 1px $color-grey-dark solid;
+    color: #fff;
+
+    &.left {
+        float: left;
+        margin-right: 2rem;
+    }
+
+    &.right {
+        float: right;
+        margin-left: 2rem;
+    }
+
+    img {
+        border: 1px #000 solid;
+    }
+
+    figcaption {
+        display: block;
+        position: relative;
+        margin: 0.5rem 0.5rem -0.5rem 0.5rem;
+        font-size: 1.25rem;
+        font-style: italic;
+    }
+}

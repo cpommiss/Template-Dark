@@ -12,16 +12,17 @@ pre {
     background-color: #1D2B3A; }
 
 code {
-  font-size: 85%;
-  padding: 4px 4px 1px;
-  margin: 0 4px;
+  display: block;
+  padding: 1rem;
+  margin-left: 0;
   border-radius: 3px;
-  color: #c5c8c6;
-  border: solid 1px #3D5166;
-  background-color: #1D2B3A;
+  color: #fff;
+  border: 2px #743bb8 solid;
+  background-color: #44236a;
   white-space: pre-wrap;
   white-space: -moz-pre-wrap;
-  word-wrap: break-word; }
+  word-wrap: break-word;
+  font-size: 85%; }
 
 body {
   background-color: #333333;
@@ -59,6 +60,28 @@ header.navbar {
 
 img {
   max-width: 100%; }
+
+figure {
+  display: inline-block;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: #333333;
+  border: 1px #333333 solid;
+  color: #fff; }
+  figure.left {
+    float: left;
+    margin-right: 2rem; }
+  figure.right {
+    float: right;
+    margin-left: 2rem; }
+  figure img {
+    border: 1px #000 solid; }
+  figure figcaption {
+    display: block;
+    position: relative;
+    margin: 0.5rem 0.5rem -0.5rem 0.5rem;
+    font-size: 1.25rem;
+    font-style: italic; }
 
 ul {
   padding-left: 20px;

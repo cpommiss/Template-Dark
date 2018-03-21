@@ -16,14 +16,15 @@ pre {
 }
 
 code {
-    font-size: 85%;
-    padding: 4px 4px 1px;
-    margin: 0 4px;
+    display: block;
+    padding: 1rem;
+    margin-left: 0;
     border-radius: 3px;
-    color: #c5c8c6;
-    border: solid 1px #3D5166;
-    background-color: #1D2B3A;
+    color: #fff;
+    border: 2px lighten($color-primary, 10%) solid;
+    background-color: darken($color-primary, 10%);
     white-space: pre-wrap;
     white-space: -moz-pre-wrap;
     word-wrap: break-word;
+    font-size: 85%;
 }

@@ -1,12 +1,10 @@
 template:
     directory: .
 
-github:
-    user: CouscousPHP
-    repo: Template-Dark
+sitetitle: Site Title
+title: Homepage
 
-title: Couscous template
-subTitle: The dark template for Couscous.
+logo: "/assets/images/logo-inverted.png"
 
 # The left menu bar
 menu:
