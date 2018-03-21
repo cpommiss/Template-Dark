@@ -1,0 +1,43 @@
+footer {
+    display: block;
+    clear: both;
+    border-top: 1px $color-primary solid;
+    margin-top: 1rem;
+    padding-top: 1rem;
+
+    & > a {
+        display: block;
+        float: left;
+        padding: 1rem;
+        min-width: 150px;
+        background-color: darken($color-primary, 10%);
+        border: 2px lighten($color-primary, 10%) solid;
+        text-align: left;
+        font-size: 1.5rem;
+        color: #fff;
+
+        &.next {
+            float: right;
+            text-align: right;
+        }
+
+        &:focus,
+        &:hover,
+        &:active {
+            background-color: lighten($color-primary, 10%);
+            color: #fff;
+            text-decoration: none;
+        }
+
+        & > i {
+            display: block;
+            position: relative;
+            top: 2px;
+            width: 24px;
+
+            &:before {
+                font-size: 2rem;
+            }
+        }
+    }
+}
