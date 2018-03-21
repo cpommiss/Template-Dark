@@ -63,7 +63,7 @@
                     {% if previous or next %}
                     <footer>
                         {% if previous %}<a href="{{ baseUrl ~ '/' ~ previous.url }}" class="previous"><i class="fa fa-chevron-left"></i> Previous: "{{ previous.name }}"</a>{% endif %}
-                        {% if next %}<a href="{{ baseUrl ~ '/' ~ next.url }}" class="next">Next: "{{ next.name }} <i class="fa fa-chevron-right"></i></a>{% endif %}
+                        {% if next %}<a href="{{ baseUrl ~ '/' ~ next.url }}" class="next">Next: "{{ next.name }}" <i class="fa fa-chevron-right"></i></a>{% endif %}
                     </footer>
                     {% endif %}
                 </section>
