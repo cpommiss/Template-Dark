@@ -49,7 +49,7 @@
             & > .nav {
                 display: none;
                 margin: 0;
-                padding: 0 0 0 15px;
+                padding: 0 0 0 5px;
                 background: #222;
 
                 & > li {
@@ -57,14 +57,15 @@
 
                     & > a {
                         padding: 5px 10px;
-                        border-left: 3px $color-grey-dark solid;
+                        border-left: 1px $color-primary solid;
                         color: #bbb;
                         font-size: 1.25rem;
 
                         &:hover,
                         &:focus {
                             padding-left: 10px;
-                            border-left: 3px $color-primary solid;
+                            background-color: #222;
+                            border-left: 1px $color-primary solid;
                             color: #fff;
                         }
                     }
@@ -72,13 +73,15 @@
                     &.active {
                         & > a {
                             padding-left: 10px;
-                            border-left: 3px $color-primary solid;
+                            background-color: darken($color-primary, 10%);
+                            border-left: 1px $color-primary solid;
                             color: #fff;
 
                             &:hover,
                             &:focus {
                                 padding-left: 10px;
-                                border-left: 3px $color-primary solid;
+                                background-color: darken($color-primary, 10%);
+                                border-left: 1px $color-primary solid;
                                 color: #fff;
                             }
                         }

@@ -158,26 +158,29 @@ li {
   #sidebar .nav > li > .nav {
     display: none;
     margin: 0;
-    padding: 0 0 0 15px;
+    padding: 0 0 0 5px;
     background: #222; }
     #sidebar .nav > li > .nav > li {
       margin: 0; }
       #sidebar .nav > li > .nav > li > a {
         padding: 5px 10px;
-        border-left: 3px #333333 solid;
+        border-left: 1px #5c2f91 solid;
         color: #bbb;
         font-size: 1.25rem; }
         #sidebar .nav > li > .nav > li > a:hover, #sidebar .nav > li > .nav > li > a:focus {
           padding-left: 10px;
-          border-left: 3px #5c2f91 solid;
+          background-color: #222;
+          border-left: 1px #5c2f91 solid;
           color: #fff; }
       #sidebar .nav > li > .nav > li.active > a {
         padding-left: 10px;
-        border-left: 3px #5c2f91 solid;
+        background-color: #44236a;
+        border-left: 1px #5c2f91 solid;
         color: #fff; }
         #sidebar .nav > li > .nav > li.active > a:hover, #sidebar .nav > li > .nav > li.active > a:focus {
           padding-left: 10px;
-          border-left: 3px #5c2f91 solid;
+          background-color: #44236a;
+          border-left: 1px #5c2f91 solid;
           color: #fff; }
   #sidebar .nav-stacked > li,
   #sidebar .nav-stacked > li + li {
