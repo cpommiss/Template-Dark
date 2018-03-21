@@ -153,7 +153,10 @@ li {
       padding-left: 9px;
       background-color: #222;
       border-left: 6px #5c2f91 solid; }
+  #sidebar .nav > li.active > .nav {
+    display: block; }
   #sidebar .nav > li > .nav {
+    display: none;
     margin: 0;
     padding: 0 0 0 15px;
     background: #222; }
