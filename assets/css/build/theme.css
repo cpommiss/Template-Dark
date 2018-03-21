@@ -145,6 +145,14 @@ li {
     background-color: #222;
     border-left: 4px #5c2f91 solid;
     color: #fff; }
+  #sidebar .nav > li > a.active {
+    padding-left: 9px;
+    background-color: #222;
+    border-left: 6px #5c2f91 solid; }
+    #sidebar .nav > li > a.active:hover, #sidebar .nav > li > a.active:focus {
+      padding-left: 9px;
+      background-color: #222;
+      border-left: 6px #5c2f91 solid; }
   #sidebar .nav-stacked > li,
   #sidebar .nav-stacked > li + li {
     margin-top: 0;

@@ -25,6 +25,19 @@
                     border-left: 4px $color-primary solid;
                     color: #fff;
                 }
+
+                &.active {
+                    padding-left: 9px;
+                    background-color: #222;
+                    border-left: 6px $color-primary solid;
+
+                    &:hover,
+                    &:focus {
+                        padding-left: 9px;
+                        background-color: #222;
+                        border-left: 6px $color-primary solid;
+                    }
+                }
             }
         }
 
