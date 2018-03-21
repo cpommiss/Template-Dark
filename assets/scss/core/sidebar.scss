@@ -41,6 +41,45 @@
                     }
                 }
             }
+
+            & > .nav {
+                margin: 0;
+                padding: 0 0 0 15px;
+                background: #222;
+
+                & > li {
+                    margin: 0;
+
+                    & > a {
+                        padding: 5px 10px;
+                        border-left: 3px $color-grey-dark solid;
+                        color: #bbb;
+                        font-size: 1.25rem;
+
+                        &:hover,
+                        &:focus {
+                            padding-left: 10px;
+                            border-left: 3px $color-primary solid;
+                            color: #fff;
+                        }
+                    }
+
+                    &.active {
+                        & > a {
+                            padding-left: 10px;
+                            border-left: 3px $color-primary solid;
+                            color: #fff;
+
+                            &:hover,
+                            &:focus {
+                                padding-left: 10px;
+                                border-left: 3px $color-primary solid;
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
         }
 
         &-stacked {
